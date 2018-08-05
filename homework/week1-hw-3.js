@@ -1,4 +1,4 @@
-//
+// Draw an execution diagram for the following.
 
 startRendering(20);
 startRendering(35);
