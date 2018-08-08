@@ -16,6 +16,8 @@ function mixedOperation(number, cb1, cb2) {
   return result;
 }
 
+function addThenSubtract(number) {}
+
 function add(a, b) {
   return a + b;
 }

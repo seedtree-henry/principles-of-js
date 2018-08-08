@@ -1,5 +1,5 @@
 var greeting = "Hello!";
-var menu = "Angry Wopper!";
+var menu = "Angry whopper!";
 var goodbye = "See you tomorrow!";
 
 console.log(greeting);
