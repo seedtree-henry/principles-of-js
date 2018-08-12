@@ -7,7 +7,7 @@ function newPlayer(name, team) {
 
   function increment() {
     score += 1;
-    console.log(`${name} (${team}) has ${score} point(s) now.`);
+    console.log(`${name} (${team}) has ${score} set(s) now.`);
   }
   return increment;
 }
@@ -18,5 +18,3 @@ var player2 = newPlayer("Alex", "blue");
 player1();
 player2();
 player2();
-player2();
-player1();
