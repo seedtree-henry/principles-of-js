@@ -4,7 +4,7 @@
 // 2) Draw the diagram of the following code.
 // 3) Rewrite the code so that we get the data in the following order.
 //    weatherToday, weatherTomorrow, weatherTwoDaysLater
-//    Change line 27 - 39 only.
+//    Change line 32 - 42 only.
 //    Do not remove setTimeout and timeToFetchData
 //    as this exercise assumes that we get weather data from a server.
 
