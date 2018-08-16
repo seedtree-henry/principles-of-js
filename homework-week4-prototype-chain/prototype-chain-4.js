@@ -16,9 +16,3 @@ var prototypeObject = {
 };
 
 var player1 = newPlayer("Henry", "Blue");
-var player2 = newPlayer("Alex", "Red");
-
-player1.increment();
-
-console.log(player1.__proto__);
-console.log(prototypeObject.__proto__);

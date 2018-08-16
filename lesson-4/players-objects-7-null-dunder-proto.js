@@ -1,5 +1,5 @@
 function newPlayer(name, team) {
-  var player = Object.create(prototypeObject);
+  var player = Object.create(null);
 
   // Do not use object literal. Dot operator only!
   player.name = name;
@@ -9,16 +9,8 @@ function newPlayer(name, team) {
   return player;
 }
 
-var prototypeObject = {
-  increment: function() {
-    this.score += 1;
-  }
-};
-
 var player1 = newPlayer("Henry", "Blue");
 var player2 = newPlayer("Alex", "Red");
-
-player1.increment();
-
-console.log(player1.__proto__);
-console.log(prototypeObject.__proto__);
+console.log(player1);
+console.log(player2);
+console.log(player1.prototype);
