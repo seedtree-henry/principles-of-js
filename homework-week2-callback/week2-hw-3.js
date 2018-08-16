@@ -8,7 +8,7 @@
 //    Do not remove setTimeout and timeToFetchData
 //    as this exercise assumes that we get weather data from a server.
 
-function Weather(maxTemp, minTemp, description) {
+function Weather(minTemp, maxTemp, description) {
   var forecast = {
     maxTemp: maxTemp,
     minTemp: minTemp,
