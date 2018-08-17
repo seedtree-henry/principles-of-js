@@ -1,4 +1,4 @@
-// Let's draw Object, Object.prototype, Function, Function.prototype diagram.
+// Let's draw a diagram including Object, Object.prototype, Function and Function.prototype.
 
 var player1 = {
   name: "Henry",

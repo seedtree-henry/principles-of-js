@@ -1,4 +1,4 @@
-// Let's draw Object, Object.prototype diagram.
+// Let's draw a diagram including Object and Object.prototype.
 
 var player1 = {
   name: "Henry",
@@ -16,3 +16,5 @@ console.log(player2);
 
 console.log(player1.__proto__);
 console.log(player2.__proto__);
+
+

@@ -11,9 +11,11 @@ Player.prototype.increment = function() {
 // new : create an object, link to Player.prototype and return the object.
 var player1 = new Player("Henry", "Blue");
 var player2 = new Player("Alex", "Red");
+var player3 = Player("Haha", "White");
 
 console.log(player1);
 console.log(player2);
+console.log(player3);
 
 console.log(player1.prototype);
 console.log(player1.__proto__);
