@@ -1,4 +1,4 @@
-// Let's draw a diagram including Object and Object.prototype.
+// Let's draw a prototype chain diagram.
 
 var player1 = {
   name: "Henry",

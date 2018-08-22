@@ -1,4 +1,4 @@
-// Let's draw a diagram including Object, Object.prototype, Function and Function.prototype.
+// Let's draw a prototype chain diagram.
 
 var player1 = {
   name: "Henry",
@@ -16,8 +16,10 @@ function updateScore(player) {
   player.score += 1;
   console.log(`${player.name} (${player.team}) has ${player.score} sets.`);
 }
+
 console.dir(Object);
 console.dir(Object.__proto__.__proto__ === Object.prototype);
 console.dir(Function.__proto__.__proto__);
 console.log(typeof Object.prototype);
 console.log(typeof Function.prototype);
+
