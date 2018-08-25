@@ -20,7 +20,7 @@ var updatePlayer1 = updateDetails.bind(player1);
 updatePlayer1("Brian", "White");
 console.log(player1);
 
-// Once you bind this, this can not be changed.
+// Once you bind this, you can not change this.
 
 updatePlayer1.call(player2, "Bruce", "Black");
 console.log(player1);
