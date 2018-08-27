@@ -3,7 +3,7 @@ class Player {
   constructor(name, team) {
     this.name = name;
     this.team = team;
-    this.scroe = 0;
+    this.score = 0;
   }
 
   increment() {
