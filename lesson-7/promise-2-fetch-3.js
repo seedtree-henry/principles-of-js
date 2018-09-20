@@ -1,4 +1,4 @@
-var API_KEY = "ad79d8ee2949ec15d357357dcbbd891c";
+var API_KEY = "1427e1f8d3a6fbab95e85fb817aa1230";
 var place = "Sydney";
 
 fetch(
@@ -10,3 +10,5 @@ fetch(
   .then(function(json) {
     console.log(json);
   });
+
+console.log("hi");
