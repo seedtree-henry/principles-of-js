@@ -10,5 +10,3 @@ fetch(
   .then(function(json) {
     console.log(json);
   });
-
-console.log("hi");
