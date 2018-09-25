@@ -14,7 +14,7 @@ var player2 = {
 
 function updateScore(player) {
   player.score += 1;
-  console.log(`${player.name} (${player.team}) has ${player.score} sets.`);
+  console.log(`${player.name} (${player.team}) has ${player.score} set(s).`);
 }
 
 var referee = {
