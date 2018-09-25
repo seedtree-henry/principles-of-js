@@ -5,10 +5,12 @@ var path = require("path");
 
 // express module
 var express = require("express");
+var socketIO = require("socket.io");
 
 // create an app and a server.
 var app = express();
 var server = http.Server(app);
+var io = socketIO(server);
 var port = 5000;
 
 app.get("/", function(req, res) {
