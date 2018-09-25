@@ -17,6 +17,10 @@ app.get("/", function(req, res) {
   res.send("<h1>Real Time Chat</h1>");
 });
 
+io.on("connection", function(socket) {
+  console.log("A user connected!");
+});
+
 server.listen(port, function() {
   console.log(`Listening on port ${port}.`);
 });
