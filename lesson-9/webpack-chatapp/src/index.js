@@ -1,9 +1,16 @@
 var openSocket = require("socket.io-client");
 const socket = openSocket("http://localhost:5000");
 
-setInterval(emitEvent, 2000);
+var messagesUlTag = document.querySelector(".messagesList");
+var messageFormTag = document.querySelector(".newMessageForm");
+var messageInputTag = messageFormTag.querySelector("input");
 
-function emitEvent() {
-  console.log("Emit an event.");
-  socket.emit("newEvent", "Are you listening?");
+messageFormTag.addEventListener("submit", submitMessage);
+
+function submitMessage(event) {
+  event.preventDefault();
+  var message = messageInputTag.value;
+  socket.emit("newMessage", message);
+
+  messageInputTag.value = "";
 }

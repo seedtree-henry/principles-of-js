@@ -22,7 +22,7 @@ io.on("connection", handleConnections);
 function handleConnections(socket) {
   console.log(socket.id);
 
-  socket.on("newEvent", function(data) {
+  socket.on("newMessage", function(data) {
     console.log(data);
   });
 }
