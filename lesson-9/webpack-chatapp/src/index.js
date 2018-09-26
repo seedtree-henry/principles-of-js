@@ -14,3 +14,9 @@ function submitMessage(event) {
 
   messageInputTag.value = "";
 }
+
+socket.on("noti", getNoti);
+
+function getNoti(data) {
+  console.log(data);
+}
